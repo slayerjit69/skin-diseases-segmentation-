@@ -1,5 +1,5 @@
 import os
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1'
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 import tensorflow as tf
 from tensorflow.keras.layers import Conv2D, BatchNormalization, Concatenate, UpSampling2D, Input, MaxPool2D, Activation
 from tensorflow.keras.models import Model
